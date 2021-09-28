@@ -1,0 +1,60 @@
+.form {
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__input {
+    display: flex;
+    align-items: center;
+    input {
+      height: 2rem;
+      width: 10rem;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      padding: 1rem;
+    }
+    input.long {
+      width: 22.5rem;
+    }
+    .ico {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2rem;
+      height: 2rem;
+      padding: 1.1rem;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      background-color: #b1b1b1;
+    }
+  }
+
+  &__txt {
+    textarea {
+      width: 25rem;
+      min-height: 5rem;
+      padding: 1rem;
+      border-radius: 6px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+
+  &__btn {
+    .btn {
+      width: 25rem;
+      height: 2.5rem;
+      background-color: #5347ff;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+
+  .flex {
+    display: flex;
+    gap: 0.5rem;
+  }
+}

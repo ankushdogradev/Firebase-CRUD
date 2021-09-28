@@ -1,0 +1,25 @@
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__head {
+    width: 60rem;
+    height: 15rem;
+    line-height: 15rem;
+    margin-bottom: 1.5rem;
+    background-color: #b1b1b1;
+    text-align: center;
+    h1 {
+      font-weight: normal;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 60rem;
+  }
+}
